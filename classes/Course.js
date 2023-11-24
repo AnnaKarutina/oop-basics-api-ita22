@@ -11,7 +11,7 @@
 	}
 	addGrade(student, grade){
 		this.grades.push({
-			student: student,
+			student: student.getName(),
 			grade: grade
 		})
 	}

@@ -19,7 +19,7 @@ class Student extends Person{
 	}
 	addGrade(course, grade){
 		this.grades.push({
-			course: course,
+			course: course.getName(),
 			grade: grade
 		})
 	}
